@@ -1,0 +1,226 @@
+{
+  "features": [
+    {
+      "id": 1,
+      "title": "Free Meeting Scheduler App"
+    },
+    {
+      "id": 2,
+      "title": "Social Media Tools"
+    },
+    {
+      "id": 3,
+      "title": "Email Tracking Software"
+    },
+    {
+      "id": 4,
+      "title": "Sales Email Automation"
+    },
+    {
+      "id": 5,
+      "title": "Ads Software"
+    },
+    {
+      "id": 6,
+      "title": "Email Marketing Software"
+    },
+    {
+      "id": 7,
+      "title": "Lead Management Software"
+    },
+    {
+      "id": 8,
+      "title": "Pipeline Management Tools"
+    },
+    {
+      "id": 9,
+      "title": "Free Website Builder"
+    },
+    {
+      "id": 10,
+      "title": "Sales Email Templates"
+    },
+    {
+      "id": 11,
+      "title": "Help desk Software"
+    },
+    {
+      "id": 12,
+      "title": "Free Online Form Builder"
+    },
+    {
+      "id": 13,
+      "title": "Free Chatbot Builder"
+    },
+    {
+      "id": 14,
+      "title": "Free Live Chat Software"
+    },
+    {
+      "id": 15,
+      "title": "Marketing Analytics"
+    },
+    {
+      "id": 16,
+      "title": "Free Loading Page Builder"
+    },
+    {
+      "id": 17,
+      "title": "Free Web Hosting"
+    }
+  ],
+  "Tools": [
+    {
+      "id": 1,
+      "title": "Website Grader"
+    },
+    {
+      "id": 2,
+      "title": "Make My Persona"
+    },
+    {
+      "id": 3,
+      "title": "Email Signature Generator"
+    },
+    {
+      "id": 4,
+      "title": "Blog Ideas Generator"
+    },
+    {
+      "id": 5,
+      "title": "Invoice Template Generator"
+    },
+    {
+      "id": 6,
+      "title": "Marketing Plan Generator"
+    },
+    {
+      "id": 7,
+      "title": "Free Business Templates"
+    },
+    {
+      "id": 8,
+      "title": "Industry Benchmark Data"
+    },
+    {
+      "id": 9,
+      "title": "Software Comparisons"
+    },
+    {
+      "id": 10,
+      "title": "Library"
+    },
+    {
+      "id": 11,
+      "title": "Website Themes and Templates"
+    }
+  ],
+  "Company": [
+    {
+      "id": 1,
+      "title": "About Us"
+    },
+    {
+      "id": 2,
+      "title": "Careers"
+    },
+    {
+      "id": 3,
+      "title": "Management Team"
+    },
+    {
+      "id": 4,
+      "title": "Board of Directors"
+    },
+    {
+      "id": 5,
+      "title": "Investors Relations"
+    },
+    {
+      "id": 6,
+      "title": "Blog"
+    },
+    {
+      "id": 7,
+      "title": "Contact Us"
+    }
+  ],
+  "Customers": [
+    {
+      "id": 1,
+      "title": "Customer Support"
+    },
+    {
+      "id": 2,
+      "title": "Join a Local User Group"
+    }
+  ],
+  "partners":[
+    {
+      "id": 1,
+      "title": "All Partner Programs"
+    },
+    {
+      "id": 2,
+      "title": "Solution Partner Program"
+    },
+    {
+      "id": 3,
+      "title": "App Partner Program"
+    },
+    {
+      "id": 4,
+      "title": "HubSpot for Startups"
+    },
+    {
+      "id": 5,
+      "title": "Affiliate Program"
+    }
+  ],
+  "logo":[
+      {
+        "id":1,
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7xIO2TWJzxChZ8QDyD4BMLw6R4KZBOAX8yQ&usqp=CAU"
+      },
+      {
+        "id":2,
+        "image":"https://img.freepik.com/free-vector/instagram-icon_1057-2227.jpg"
+      },
+      {
+        "id":3,
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzTHHWr7IIzhgQE0sfbPHXOd8Cwte2fhdk-w&usqp=CAU"
+      },
+      {
+        "id":4,
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUwZwh2-_Y1FpX24gWbF7ri7wTxJl-NtFJPw&usqp=CAU"
+      },
+      {
+        "id":5,
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTawKjFIVe0Vc9YVZnV_5gDRFHr_JwFdQyEoA&usqp=CAU"
+      },
+      {
+        "id":6,
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnCgwnKOGOUosPXqV2DMF08IDTZh6FWKWpAQ&usqp=CAU"
+      }
+  ],
+  "card":[
+   {
+    "id":1,
+    "logo":"https://www.hubspot.com/hubfs/product_icons_2022/MarketingHub_Icon_Gradient_RGB_24px.svg",
+    "title":"Marketing Hub",
+    "para":"Marketing software to help you grow <br/> traffic, convert more visitors, and run <br/> complete inbound marketing campaigns <br/> at scale.",
+    "ch_para1":"Lead generation",
+    "ch_para2":"Marketing automation",
+    "ch_para3":"Analytics"
+   },
+   {
+    "id":2,
+    "logo":"https://www.hubspot.com/hubfs/product_icons_2022/SalesHub_Icon_Gradient_RGB_24px.svg",
+    "title":"Sales Hub",
+    "para":"Sales CRM software to help you get deeper <br/> insights into prospects, automate the tasks you hate, and close more deals faster.",
+    "ch_para1":"Lead generation",
+    "ch_para2":"Marketing automation",
+    "ch_para3":"Analytics"
+   }
+  ]
+}
