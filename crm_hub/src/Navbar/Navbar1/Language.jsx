@@ -1,23 +1,19 @@
-import React from 'react'
-
-import {
+import { 
     Menu,
-    MenuButton,
-    useColorModeValue,
-    useDisclosure,
-    MenuItem,
-    MenuList,
-   
-} from "@chakra-ui/react"
-import { ChevronDownIcon} from '@chakra-ui/icons'
-
-const Navbar1 = () => {
-   
+      MenuButton,
+      useColorModeValue,
+      useDisclosure,
+      MenuItem,
+      MenuList,
+  } from '@chakra-ui/react';
+  import { ChevronDownIcon} from '@chakra-ui/icons'
+  import { Link} from "react-router-dom";
+  
+const Language = () => {
     const {isOpen,onOpen,onClose} = useDisclosure();
-
   return (
-    <>
-       <Menu isOpen={isOpen}>
+    <div>
+      <Menu isOpen={isOpen}>
       <MenuButton
         variant="ghost"
         mx={1}
@@ -30,7 +26,7 @@ const Navbar1 = () => {
         onMouseEnter={onOpen}
         onMouseLeave={onClose}
       >
-        English <ChevronDownIcon />
+        <Link to="#">English </Link><ChevronDownIcon />
       </MenuButton>
       <MenuList onMouseEnter={onOpen} onMouseLeave={onClose}>
         <MenuItem >Deutsch</MenuItem>
@@ -41,8 +37,8 @@ const Navbar1 = () => {
       </MenuList>
       
     </Menu>
-    </>
+    </div>
   )
 }
 
-export default Navbar1
+export default Language

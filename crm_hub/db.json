@@ -208,7 +208,7 @@
     "id":1,
     "logo":"https://www.hubspot.com/hubfs/product_icons_2022/MarketingHub_Icon_Gradient_RGB_24px.svg",
     "title":"Marketing Hub",
-    "para":"Marketing software to help you grow <br/> traffic, convert more visitors, and run <br/> complete inbound marketing campaigns <br/> at scale.",
+    "para":"Marketing software to help you grow  traffic, convert more visitors, and run  complete inbound marketing campaigns  at scale.",
     "ch_para1":"Lead generation",
     "ch_para2":"Marketing automation",
     "ch_para3":"Analytics"
@@ -217,10 +217,37 @@
     "id":2,
     "logo":"https://www.hubspot.com/hubfs/product_icons_2022/SalesHub_Icon_Gradient_RGB_24px.svg",
     "title":"Sales Hub",
-    "para":"Sales CRM software to help you get deeper <br/> insights into prospects, automate the tasks you hate, and close more deals faster.",
-    "ch_para1":"Lead generation",
-    "ch_para2":"Marketing automation",
-    "ch_para3":"Analytics"
+    "para":"Sales CRM software to help you get deeper  insights into prospects, automate the   tasks you hate, and close more deals   faster.",
+    "ch_para1":" Advanced CRM",
+    "ch_para2":" Meeting scheduling",
+    "ch_para3":"Payments"
+   },
+   {
+    "id":3,
+    "logo":"https://www.hubspot.com/hubfs/product_icons_2022/ServiceHub_Icon_Gradient_RGB_24px.svg",
+    "title":"Service Hub",
+    "para":"Customer service software to help you  connect with customers, exceed   expectations, and turn them into   promoters who grow your business.",
+    "ch_para1":"Tickets",
+    "ch_para2":" Customer feedback",
+    "ch_para3":" Knowledge base"
+   },
+   {
+    "id":4,
+    "logo":"https://www.hubspot.com/hubfs/product_icons_2022/CMSHub_Icon_Gradient_RGB_24px.svg",
+    "title":"CMS Hub",
+    "para":"Content management software that’s  flexible for marketers, powerful for  developers, and gives customers a  personalized, secure experience.",
+    "ch_para1":"Drag-and-drop editor",
+    "ch_para2":" SEO recommendations",
+    "ch_para3":" Website themes"
+   },
+   {
+    "id":5,
+    "logo":"https://www.hubspot.com/hubfs/product_icons_2022/OperationsHub_Icon_Gradient_RGB_24px.svg",
+    "title":"Operations Hub",
+    "para":"Operations software that syncs your apps,  cleans and curates customer data, and  automates processes — so all your  systems and teams work better together.",
+    "ch_para1":"Data sync",
+    "ch_para2":"Programmable automation",
+    "ch_para3":"Data quality automation"
    }
   ]
 }
