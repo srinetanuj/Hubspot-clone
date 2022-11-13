@@ -19,7 +19,7 @@ const Card = ({title,logo,para,ch_para1,ch_para2,ch_para3}) => {
   return (
     <>
       <VStack>
-        <Box boxShadow='2xl' p='6' rounded='md' bg='white' textAlign="left" w="100%"  h="550px">
+        <Box boxShadow='2xl' p='6' rounded='md' bg='white' textAlign="left" w="100%"  h="auto">
         <Box textAlign="left">
            <div style={{display:"flex",justifyContent:"center", marginTop:"50px"}}>
               <Image  src={logo} w="50px" h="50px" />

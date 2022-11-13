@@ -211,7 +211,8 @@
     "para":"Marketing software to help you grow  traffic, convert more visitors, and run  complete inbound marketing campaigns  at scale.",
     "ch_para1":"Lead generation",
     "ch_para2":"Marketing automation",
-    "ch_para3":"Analytics"
+    "ch_para3":"Analytics",
+    "description":"Marketing automation software"
    },
    {
     "id":2,
@@ -220,7 +221,9 @@
     "para":"Sales CRM software to help you get deeper  insights into prospects, automate the   tasks you hate, and close more deals   faster.",
     "ch_para1":" Advanced CRM",
     "ch_para2":" Meeting scheduling",
-    "ch_para3":"Payments"
+    "ch_para3":"Payments",
+    "description":"Sales CRM software"
+    
    },
    {
     "id":3,
@@ -229,7 +232,8 @@
     "para":"Customer service software to help you  connect with customers, exceed   expectations, and turn them into   promoters who grow your business.",
     "ch_para1":"Tickets",
     "ch_para2":" Customer feedback",
-    "ch_para3":" Knowledge base"
+    "ch_para3":" Knowledge base",
+    "description":"Customer service software"
    },
    {
     "id":4,
@@ -238,7 +242,8 @@
     "para":"Content management software that’s  flexible for marketers, powerful for  developers, and gives customers a  personalized, secure experience.",
     "ch_para1":"Drag-and-drop editor",
     "ch_para2":" SEO recommendations",
-    "ch_para3":" Website themes"
+    "ch_para3":" Website themes",
+    "description":"Content management software"
    },
    {
     "id":5,
@@ -247,7 +252,8 @@
     "para":"Operations software that syncs your apps,  cleans and curates customer data, and  automates processes — so all your  systems and teams work better together.",
     "ch_para1":"Data sync",
     "ch_para2":"Programmable automation",
-    "ch_para3":"Data quality automation"
+    "ch_para3":"Data quality automation",
+    "description":"Operations software"
    }
   ]
 }

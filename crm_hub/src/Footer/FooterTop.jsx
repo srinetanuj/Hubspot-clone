@@ -1,5 +1,5 @@
 
-import { Grid,GridItem,Heading,Link,Image } from '@chakra-ui/react'
+import { Grid,Heading,Link} from '@chakra-ui/react'
 
 
 const FooterTop = () => {

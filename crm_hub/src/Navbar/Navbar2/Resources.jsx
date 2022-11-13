@@ -8,7 +8,8 @@ import {
       Heading
   } from '@chakra-ui/react';
   import { ChevronDownIcon} from '@chakra-ui/icons'
-  import { Link} from "react-router-dom";
+import ResourcesPage from './ResourcesPage';
+
   
 const Resources = () => {
     const {isOpen,onOpen,onClose} = useDisclosure();
@@ -30,7 +31,7 @@ const Resources = () => {
         <Heading as="h3" size='md'>Resources <ChevronDownIcon /></Heading> 
       </MenuButton>
       <MenuList onMouseEnter={onOpen} onMouseLeave={onClose}>
-        <MenuItem >About Us</MenuItem>
+        <MenuItem mr="300px"><ResourcesPage/></MenuItem>
         
       </MenuList>
       

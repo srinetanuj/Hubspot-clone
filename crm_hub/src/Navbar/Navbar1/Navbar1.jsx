@@ -1,4 +1,4 @@
-import { Grid, GridItem, Heading} from '@chakra-ui/react';
+import { Grid, GridItem, Heading,Link} from '@chakra-ui/react';
 import Contact from './Contact';
 import Language from './Language';
 import CustomerSupport from './CustomerSupport';
@@ -9,12 +9,12 @@ import {SearchIcon} from "@chakra-ui/icons"
 function Navbar1(){
    return(
   
-      <Grid templateColumns='150px 200px 600px 20px 150px 200px 150px' w="80%" m="auto" gap={3} mt={30} h={20}>
+      <Grid templateColumns='150px 200px 300px 30px 150px 250px 150px' w="80%" m="auto"  h="auto" mt={5} mb={5}>
       <GridItem w='20%%' h='10'  >
-        <Heading as="h6" size="md"> <Language/> </Heading>
+        <Heading as="h6" size="md"> <Link to="#"><Language/> </Link></Heading>
       </GridItem>
       <GridItem w='20%%' h='10'  >
-      <Heading as="h6" size="md">  <Contact/> </Heading>
+      <Heading as="h6" size="md"> <Link to="#"> <Contact/> </Link></Heading>
       
       </GridItem>
       <GridItem w='20%%' h='10'  ></GridItem>
@@ -23,15 +23,15 @@ function Navbar1(){
       <Heading as="h6" size="md">  <IconButton aria-label='Search database' icon={<SearchIcon />} /> </Heading>
       </GridItem>
       <GridItem w='20%%' h='10'  >
-      <Heading as="h6" size="md">  <Login/> </Heading>
+      <Heading as="h6" size="md"> <Link to="#"> <Login/> </Link></Heading>
         
       </GridItem>
       <GridItem w='20%%' h='10'>
-      <Heading as="h6" size="md"> <CustomerSupport/> </Heading>
+      <Heading as="h6" size="md">  <Link to="#"><CustomerSupport/></Link> </Heading>
       
       </GridItem>
       <GridItem w='20%%' h='10'  >
-      <Heading as="h6" size="md"> <About/></Heading>
+      <Heading as="h6" size="md"><Link to="#"> <About/></Link></Heading>
        
       </GridItem>
       </Grid>

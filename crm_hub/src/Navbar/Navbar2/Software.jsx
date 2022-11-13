@@ -8,18 +8,21 @@ import {
       Heading
   } from '@chakra-ui/react';
   import { ChevronDownIcon} from '@chakra-ui/icons'
-  import { Link} from "react-router-dom";
+ 
+import SoftwarePage from './SoftwarePage';
   
+
 const Software = () => {
     const {isOpen,onOpen,onClose} = useDisclosure();
+   
   return (
     <div>
-      <Menu isOpen={isOpen}>
+      <Menu isOpen={isOpen} bg="gray.200">
       <MenuButton
         variant="ghost"
         mx={1}
-        py={[1, 2, 2]}
-        px={4}
+        py={2}
+        px={3}
         borderRadius={5}
         _hover={{ bg: useColorModeValue("gray.100", "gray.700") }}
         aria-label="Courses"
@@ -30,7 +33,7 @@ const Software = () => {
         <Heading as="h3" size='md'>Software <ChevronDownIcon /></Heading> 
       </MenuButton>
       <MenuList onMouseEnter={onOpen} onMouseLeave={onClose}>
-        <MenuItem >About Us</MenuItem>
+        <MenuItem ><SoftwarePage/></MenuItem>
         
       </MenuList>
       
